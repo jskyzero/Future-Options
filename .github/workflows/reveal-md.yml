@@ -32,17 +32,16 @@ jobs:
       run: ./node_modules/.bin/reveal-md README.md --static _site
     - name: Commit files
       run: |
-        rm .git -rf
-        cd _site
-        git init
-        git add -A
+        rm .git -rf; cd _site ; git init
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "Add changes" -a
+        git add -A
+        git commit -m "Add changes"
         cd ../
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
         branch: gh-pages
         directory: _site
+        force: true
         github_token: ${{ secrets.GITHUB_TOKEN }}
