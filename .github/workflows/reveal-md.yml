@@ -16,7 +16,9 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        # node-version: [10.x, 12.x, 14.x]
+        node-version: [14.x]
+
 
     steps:
     - uses: actions/checkout@v2
@@ -28,6 +30,15 @@ jobs:
       run: npm install reveal-md
     - name : Reveal-md Build
       run: ./node_modules/.bin/reveal-md README.md --static _site
+    - name: Commit files
+      run: |
+        rm .git -rf
+        cd _site
+        git init
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Add changes" -a
+        cd ../
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
