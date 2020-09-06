@@ -18,15 +18,22 @@ theme: black
 
 ## INDEX
 
+1. Options
+2. Decition
+
+<!--s-->
+
+### Options
+
 1. Love2D / Lua
 2. Unity / C#
 3. Unreal / C++
 4. Electron / JS(TS)
 5. OpenGL* / Rust
 
-<!--s-->
+<!--v-->
 
-## Love2D / Lua
+### Love2D / Lua
 
 <!--v-->
 
@@ -35,9 +42,9 @@ lua is a eaily used in other language.
 use love2d to practice it.
 
 
-<!--s-->
+<!--v-->
 
-## UNITY / C#
+### UNITY / C#
 
 <!--v-->
 
@@ -48,27 +55,29 @@ unity3d is eaily to use in game develop
 + AI / Action / Story Editor
 
 
-<!--s-->
-
-## Unreal / C++
-
-
-<!--v-->
+### Unreal / C++
 
 unreal is more heavy and strong
 
-<!--s-->
-
-## Electron / JS(TS)
-
 <!--v-->
+
+
+
+### Electron / JS(TS)
 
 use electron to produce nice ui program
 
-<!--s-->
-
-## OpenGL* / Rust
-
 <!--v-->
 
+
+
+### OpenGL* / Rust
+
 konw more about basic
+
+<!--s-->
+
+
+## Decition
+
+Choose what you need & what is cool
