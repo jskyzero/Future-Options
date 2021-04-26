@@ -8,76 +8,65 @@ theme: black
 ---
 
 
-# Future Options
-`jskyzero` `2020/07/17`
+# 未来计划
+`jskyzero` `2021/04/26`
 
-> + talk about things which attracts me a lot
-> + make tools be a solution for game develop
+---
 
-<!--s-->
-
-## INDEX
-
-1. Options
-2. Decition
++ 记录一些感兴趣的方向
++ 一些必须要去做的事情
 
 <!--s-->
 
-### Options
+## 目录
 
-1. Love2D / Lua
-2. Unity / C#
-3. Unreal / C++
-4. Electron / JS(TS)
-5. OpenGL* / Rust
+1. 图形应用：Electron / JS(TS)
+2. 编程与图形学：OpenGL* / Rust
+3. 游戏敏捷开发：Unity / C#
+4. 重量级游戏引擎：Unreal / C++
 
-<!--v-->
+<!--s-->
 
-### Love2D / Lua
+### 1.图形应用：Electron / JS(TS)
 
-<!--v-->
-
-lua is a eaily used in other language.
-
-use love2d to practice it.
-
+跨平台，高自定义化的图形应用解决方案
 
 <!--v-->
 
-### UNITY / C#
+暂时没想好要做啥。
+
+<!--s-->
+
+### 2.编程与图形学：OpenGL* / Rust
+
+培养良好的编程习惯 & 重新学习图形学。
 
 <!--v-->
 
-unity3d is eaily to use in game develop
+Rust.Playground
+
+<!--s-->
+
+
+### 3. 游戏敏捷开发：Unity / C#
+
+高效易用的游戏引擎UNITY
+
+<!--v-->
+
+Unity.ExtendEditor
 
 + MVC structure
 + Protobuf Date
 + AI / Action / Story Editor
 
-
-### Unreal / C++
-
-unreal is more heavy and strong
-
-<!--v-->
-
-
-
-### Electron / JS(TS)
-
-use electron to produce nice ui program
-
-<!--v-->
-
-
-
-### OpenGL* / Rust
-
-konw more about basic
-
 <!--s-->
 
 
-## Decition
+### 4. 重量级游戏引擎：Unreal / C++
 
-Choose what you need & what is cool
+迎接次时代。
+
+<!--v-->
+
+暂时没想好要做啥。
