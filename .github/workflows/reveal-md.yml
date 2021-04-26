@@ -29,7 +29,7 @@ jobs:
     - name: Install dependencies
       run: npm install reveal-md
     - name : Reveal-md Build
-      run: ./node_modules/.bin/reveal-md README.md  --static _site
+      run: ./node_modules/.bin/reveal-md README.md --theme theme.css --assets-dir=assets  --static _site
     - name: Commit files
       run: |
         rm .git -rf; cd _site ; git init
