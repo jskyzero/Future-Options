@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Future Options</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./assets/theme.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+
+# 未来计划
+`jskyzero` `2021/04/26`
+
+---
+
++ 记录一些感兴趣的方向
++ 一些必须要去做的事情
+
+</script></section><section  data-markdown><script type="text/template">
+
+## 目录
+
+1. 图形应用：Electron / JS(TS)
+2. 编程与图形学：OpenGL* / Rust
+3. 游戏敏捷开发：Unity / C#
+4. 重量级游戏引擎：Unreal / C++
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+### 1.图形应用：Electron / JS(TS)
+
+跨平台，高自定义化的图形应用解决方案
+
+</script></section><section data-markdown><script type="text/template">
+
+暂时没想好要做啥。
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+### 2.编程与图形学：OpenGL* / Rust
+
+培养良好的编程习惯 & 重新学习图形学。
+
+</script></section><section data-markdown><script type="text/template">
+
+Rust.Playground
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+
+### 3. 游戏敏捷开发：Unity / C#
+
+高效易用的游戏引擎UNITY
+
+</script></section><section data-markdown><script type="text/template">
+
+Unity.ExtendEditor
+
++ MVC structure
++ Protobuf Date
++ AI / Action / Story Editor
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+
+### 4. 重量级游戏引擎：Unreal / C++
+
+迎接次时代。
+
+</script></section><section data-markdown><script type="text/template">
+
+暂时没想好要做啥。
+</script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
